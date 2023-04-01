@@ -6,7 +6,7 @@ import {
   AccordionItemButton,
 } from "react-accessible-accordion";
 
-import './forecast.css';
+import "./forecast.css";
 
 const WEEK_DAYS = [
   "Lundi",
@@ -23,7 +23,7 @@ const Forecast = ({ data }) => {
   const dayInAWeek = new Date().getDay();
   //Extrait une partie du tableau WEEk_DAYS a partir de la position dayInAWeek qui correspond a la position dans le tableau et jusqu'a la fin du tableau
   //Puis ajout le nom des jours de la semaine suivante de 0 jusqu'au jour actuel
-  const forecastDays = WEEK_DAYS.slice(dayInAWeek, WEEK_DAYS.length).concat( 
+  const forecastDays = WEEK_DAYS.slice(dayInAWeek, WEEK_DAYS.length).concat(
     WEEK_DAYS.slice(0, dayInAWeek)
   );
 
