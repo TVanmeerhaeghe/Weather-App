@@ -54,9 +54,10 @@
 }
 
 .daily-details-grid-item label:first-child{
-    color: #757575;
+    color: #212121;
 }
 
 .daily-details-grid-item label:last-child{
     color: #212121;
+    font-weight: 600;
 }

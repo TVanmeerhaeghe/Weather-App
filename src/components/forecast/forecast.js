@@ -64,16 +64,16 @@ const Forecast = ({ data }) => {
                   <label>{item.main.humidity}%</label>
                 </div>
                 <div className="daily-details-grid-item">
-                  <label>Nuage</label>
+                  <label>Nuageux</label>
                   <label>{item.clouds.all}%</label>
                 </div>
                 <div className="daily-details-grid-item">
-                  <label>Wind</label>
+                  <label>Vent</label>
                   <label>{item.wind.speed} m/s</label>
                 </div>
                 <div className="daily-details-grid-item">
                   <label>Niveau de la mer</label>
-                  <label>{item.main.sealevel}m</label>
+                  <label>{item.main.sea_level}m</label>
                 </div>
                 <div className="daily-details-grid-item">
                   <label>Ressentie</label>
