@@ -10,7 +10,7 @@ function App() {
   const [forecast, setForecast] = useState(null);
 
   const handleOnSearchChange = (searchData) => {
-    const [lat, lon] = searchData.value.split("");
+    const [lat, lon] = searchData.value.split(" ");
 
     //Fetch les données de l'API openweather en récupérant les variables lon et lat
     const currentWeatherFetch = fetch(
